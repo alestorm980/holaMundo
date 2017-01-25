@@ -6,5 +6,6 @@ script:
   - cd Analisis/helloworld
   - cmake CmakeLists.txt
   - make
+  - ./hello
 
   
