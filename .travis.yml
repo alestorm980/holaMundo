@@ -6,7 +6,8 @@ script:
   - cd Analisis/helloworld
   - cmake CmakeLists.txt
   - cd ..
-  - ls
   - cd ..
-  - ls
+  - cd build
+  - make
+
   
