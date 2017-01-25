@@ -8,6 +8,6 @@ script:
   - cd ..
   - cd ..
   - cd build
-  - make
+  - ls
 
   
