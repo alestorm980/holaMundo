@@ -4,4 +4,4 @@ compiler:
 script:
   - mkdir build
   - cd Analisis/helloworld
-  - cmake .. && make
+  - ls
