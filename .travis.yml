@@ -5,9 +5,6 @@ script:
   - mkdir build
   - cd Analisis/helloworld
   - cmake CmakeLists.txt
-  - cd ..
-  - cd ..
-  - cd build
-  - ls
+  - make
 
   
