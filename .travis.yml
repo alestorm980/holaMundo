@@ -3,5 +3,4 @@ compiler:
   - g++
 script:
   - mkdir build
-  - cd helloworld
-  - cmake .. && make
+  - ls
