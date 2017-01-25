@@ -3,4 +3,5 @@ compiler:
   - g++
 script:
   - mkdir build
-  - ls
+  - cd Analisis/helloworld
+  - cmake .. && make
