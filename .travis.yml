@@ -13,7 +13,7 @@ compiler:
   - g++
 
 script:
-  - cd --
+  - locate Analisis
   - ls
   - cd /Analisis
   - mkdir build
