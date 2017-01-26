@@ -2,10 +2,13 @@ language: cpp
 compiler:
   - g++
 script:
-  - mkdir build
   - cd Analisis/helloworld
-  - cmake CmakeLists.txt
+  - mkdir build
+  - cd helloworld
+  - cmake cmake -H. -B../build
+  - cd ../build
   - make
   - ./hello
+  - ls
 
   
