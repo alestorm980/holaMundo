@@ -2,7 +2,7 @@ language: cpp
 compiler:
   - g++
 script:
-  - cd Analisis/helloworld
+  - cd Analisis
   - mkdir build
   - cd helloworld
   - cmake cmake -H. -B../build
