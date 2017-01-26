@@ -13,7 +13,8 @@ compiler:
   - g++
 
 script:
-  - cd Analisis
+  - pwd
+  - cd /Analisis
   - mkdir build
   - cd helloworld
   - cmake cmake -H. -B../build
