@@ -1,8 +1,10 @@
 language: cpp
 compiler:
   - g++
-script:
+before_install:
+  -sudo apt-get update
   -sudo apt-get install libgtest-dev
+script:
   - cd Analisis
   - mkdir build
   - cd helloworld
