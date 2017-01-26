@@ -1,7 +1,7 @@
 language: cpp
 
 before_install:
-  - pwd
+  - ls
   - sudo apt-get -qq update
   - sudo apt-get install -y libgtest-dev
   - sudo apt-get install -y cmake
@@ -15,6 +15,7 @@ compiler:
 
 script:
   - pwd
+  - ls
   - cd /Analisis
   - mkdir build
   - cd helloworld
