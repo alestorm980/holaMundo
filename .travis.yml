@@ -13,9 +13,10 @@ compiler:
   - g++
 
 script:
-  - cd --
+  - cd ../../../
+   - cd home/travis/build/alestorm980/holaMundo
   - ls
-  - cd /Analisis
+  - cd Analisis
   - mkdir build
   - cd helloworld
   - cmake cmake -H. -B../build
