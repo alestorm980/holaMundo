@@ -1,10 +1,10 @@
 language: cpp
 
 before_install:
-  - ls
   - sudo apt-get -qq update
   - sudo apt-get install -y libgtest-dev
   - sudo apt-get install -y cmake
+  - ls
   - cd /usr/src/gtest
   - sudo cmake CMakeLists.txt
   - sudo make
