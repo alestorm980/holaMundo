@@ -13,7 +13,7 @@ compiler:
   - g++
 
 script:
-  - pwd
+  - cd --
   - ls
   - cd /Analisis
   - mkdir build
