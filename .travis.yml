@@ -2,7 +2,7 @@ language: cpp
 compiler:
   - g++
 before_install:
-  -sudo apt-get install libgtest-dev
+  -sudo apt-get install -y libgtest-dev
 script:
   - cd Analisis
   - mkdir build
