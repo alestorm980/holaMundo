@@ -1,8 +1,12 @@
 language: cpp
+
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y libxml2-dev
+  
 compiler:
   - g++
-before_install:
-  -sudo apt-get install -y libgtest-dev
+
 script:
   - cd Analisis
   - mkdir build
