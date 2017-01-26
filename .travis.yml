@@ -15,7 +15,7 @@ compiler:
 
 script:
   - cd ../../../
-   - cd home/travis/build/alestorm980/holaMundo
+   - cd home/travis/build/alestorm980/holaMundo/usr
   - ls
   - cd Analisis
   - mkdir build
